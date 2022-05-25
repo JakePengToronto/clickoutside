@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.another {
+  margin: 10px 0 0 0;
+}
+
+.click-text:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: rgb(0 0 0 / 13%) 0px 0.2rem 1.2rem 0px;
+}
+
+.click-text {
+  background: rgb(231, 231, 231);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+}
+
+.click-status-text {
+  margin-top: 10px;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
